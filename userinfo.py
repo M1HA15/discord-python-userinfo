@@ -26,7 +26,7 @@ async def userinfo(ctx, member: discord.Member):
     embed.add_field(name='**Account Created:**', value=member.created_at.__format__('%A, %d. %B %Y | %H:%M:%S'), inline=False)
     embed.add_field(name='**Server Join Date:**', value=member.joined_at.__format__('%A, %d. %B %Y | %H:%M:%S'), inline=False)
     embed.set_thumbnail(url=member.avatar_url)
-    embed.set_footer(text='©Role Adder')
+    embed.set_footer(text='©Mihai✪#9736')
     await ctx.send(content=None, embed=embed)
 
 bot.run(token)
