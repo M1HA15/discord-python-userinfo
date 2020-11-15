@@ -10,7 +10,7 @@ bot.remove_command('help')
 @bot.event
 async def on_ready():
     print('-------') 
-    print('im ready')
+    print('Im Ready!')
     print(bot.user.name)
     print(bot.user.id)
     print('-------')
